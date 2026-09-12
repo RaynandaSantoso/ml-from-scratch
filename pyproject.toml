@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Lets tests do `from ml_from_scratch... import ...` without setting PYTHONPATH
+pythonpath = ["."]
+testpaths = ["tests"]
