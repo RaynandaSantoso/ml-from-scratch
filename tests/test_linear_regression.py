@@ -5,8 +5,6 @@ from sklearn.linear_model import LinearRegression as SklearnLR
 from ml_from_scratch.linear_regression import LinearRegression
 
 
-# A "fixture" is reusable setup. Any test that lists `data` as a parameter
-# gets whatever this returns. Saves repeating these 5 lines in every test.
 @pytest.fixture
 def data():
     rng = np.random.default_rng(0)
